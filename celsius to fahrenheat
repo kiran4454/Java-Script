@@ -1,0 +1,8 @@
+cToF(60);
+function cToF(celsius)
+{
+let ctemp=celsius;
+let cToF=ctemp*9/5 +32;
+let message=ctemp+`celsius is `+cToF+` fahrenheat`;
+console.log(message)
+};
