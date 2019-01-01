@@ -1,0 +1,13 @@
+function angleType(angle){
+    if(angle<90){
+        return "acute angle";
+    }
+    if(angle===90){
+        return "right angle";
+    }
+    if(angle<180){
+        return "obtuse angle";
+    }
+    return "straight angle";
+}
+console.log(angleType(60)); 
