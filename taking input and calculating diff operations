@@ -1,0 +1,23 @@
+
+function multiplyBy(){
+    num1=document.getElementById("First Number").value;
+    num2=document.getElementById("Second Number").value;
+    document.getElementById("Result").innerHTML=num1*num2;
+}
+function divideBy(){
+    num1=document.getElementById("First Number").value;
+    num2=document.getElementById("Second Number").value;
+    document.getElementById("Result").innerHTML=num1/num2;
+}
+
+function subBy(){
+    num1=document.getElementById("First Number").value;
+    num2=document.getElementById("Second Number").value;
+    document.getElementById("Result").innerHTML=num1-num2;
+}
+function addBy(){
+    num1=document.getElementById("First Number").value;
+    num2=document.getElementById("Second Number").value;
+    document.getElementById("Result").innerHTML=num1+num2;
+}
+
