@@ -1,0 +1,11 @@
+let numbers=[1,2,3,8,9];
+function numdiff(){
+    let max=0;
+    let temp;
+    for(let i=0;i<numbers.length-1;i++){
+        temp=Math.abs(numbers[i]-numbers[i+1]);
+        max=Math.max(max,temp);
+    }
+    return max;
+}
+console.log(numdiff());
