@@ -1,0 +1,11 @@
+let  multiplyBy
+   let num1=prompt('Enter Number 1:',' ');
+   let num2=prompt('Enter Number 2:',' ');
+    result=num1*num2;
+    console.log(result);
+    result1=num1+num2;
+    console.log(result1);
+        result2=num1-num2;
+    console.log(result2);
+        result3=num1/num2;
+    console.log(result3);
