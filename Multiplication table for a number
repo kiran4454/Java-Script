@@ -1,0 +1,5 @@
+let num=prompt("enter the number")
+        for(let i=0;i<=10;i++){
+             output=(num+'x'+i+'='+num*i);
+             console.log(output);        
+    }
