@@ -1,0 +1,14 @@
+showprimes(30);
+function showprimes(limit)
+    for(let n=2;n<=limit;n++){
+        let isprime=true;
+        for(let factor=2;factor<n;factor++){
+            if(n%factor===0){
+                isprime=false;
+                break;
+            }
+        }
+        if(isprime)
+        console.log(n);
+    }
+}
