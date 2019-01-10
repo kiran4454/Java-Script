@@ -1,0 +1,11 @@
+let deposit;
+let accountno=prompt('Enter Account Number:',' ');
+let mobileno=prompt('Enter Mobile Number:',' ');
+if(accountno.length===10 &&mobileno.length===10){
+    let deposit=prompt('please enter the amount to be deposited: ',' ');
+    deposit=alert('Insertcash');
+    deposit=alert('deposit');
+}
+else{
+    deposit=alert('Invalid Account Number (OR) Invalid Mobile Number');  
+}
