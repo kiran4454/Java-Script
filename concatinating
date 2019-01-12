@@ -1,0 +1,4 @@
+let firstname='kiran';
+let lastname=' madivada';
+let result=firstname.concat(lastname);
+console.log(result);
